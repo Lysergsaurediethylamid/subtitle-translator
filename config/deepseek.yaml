@@ -1,0 +1,19 @@
+# DeepSeek API 配置
+api_key: sk-xxx
+model: deepseek-chat
+in_srt: /path/to/your/subtitle.srt
+
+# 请求参数
+timeout_s: 120
+temperature: 0
+max_workers: 88
+
+# 分批参数（按"条数 + 字符数"双阈值切分）
+max_blocks: 30
+max_chars: 8000
+
+# 相邻请求的停顿（秒）
+pause_s: 0.0
+
+# 进度条
+progress_len: 70
